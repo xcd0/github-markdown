@@ -1,0 +1,14 @@
+<body>
+{{ $currentPage := . }}
+<div class="flex">
+<div class="div-right"><p>
+<!--
+Last updated on {{ $.Lastmod.Format ( $.Site.Params.dateformat | default "2006”N1Œ2“ú") }}
+/ Published on {{ $.PublishDate.Format ( $.Site.Params.dateformat | default "2006”N1Œ2“ú") }}.
+-->
+</p></div>
+<article class="main-content">
+{{ .Content }}
+</article>
+</div>
+</body>

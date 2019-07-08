@@ -1,0 +1,6 @@
+baseURL = "http://127.0.0.1/"
+relativeurls = true
+languageCode = "en-us"
+title = ""
+theme = "github-markdown"
+enableGitInfo = true
